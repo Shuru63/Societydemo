@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: 0;
+}
+.register-container{
+    background-image: url("../../project_material/society.jpeg");
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container-auth {
+    background-image: url("../../project_material/society.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.log-in-card{
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding-top: 5%;
+    box-shadow: 10px 0px 20px rgba(132, 132, 132, 0.353);
+    border-radius: 30px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #790101;
+}
+.log-in-form{
+    padding:  2rem 2rem 2rem 2rem;
+   border-radius: 30px;
+}
+.from-google{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+  color: #ffffff;
+}
+.cover{
+    background: #ffffff;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    outline: none;
+    background-color: white;
+  }
+  .form-input label{
+    text-align: left;
+  } 
+  input {
+    padding: 0.5pc;
+    border-bottom: #333 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  input::placeholder {
+    font-style: italic;
+  }
+  
+  .password-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-btn button{
+    background: #ba3434;
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .form-btn button:hover{
+    background: #ba6c34;
+    transition: all 1s;
+  }
+  .register{
+    padding: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    font: 1.1em sans-serif;
+    color: #790101;
+  }
+  .register:hover{
+    color: #000;
+  }
+  .home{
+    margin-top: 1rem;
+  }
+  
+  @media (max-width:750px) {
+    .log-in-card{
+        position: relative;
+        z-index: 2;
+        background-color: white;
+        padding-top: 5%;
+        box-shadow: 10px 0px 20px rgba(132, 132, 132, 0.353);
+        border-radius: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #ba3434;
+    }
+  }
